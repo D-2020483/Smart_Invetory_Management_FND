@@ -41,7 +41,7 @@ import {
   setCurrentPage,
 } from "@/store/slices/inventorySlice";
 import { useSelector, useDispatch } from "react-redux";
-import InventoryForm from "@/pages/inventory/InventoryForm.jsx";
+import InventoryForm from "@/pages/inventory/inventoryForm.jsx";
 import { Pagination } from "@/pages/paggination";
 // import BulkActionDialog from "@/pages/inventory/BulkActionDialog"; // Not implemented, commented out
 
