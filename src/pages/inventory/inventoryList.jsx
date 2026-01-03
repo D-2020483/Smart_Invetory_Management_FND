@@ -46,7 +46,7 @@ import { Pagination } from "@/pages/paggination";
 // import BulkActionDialog from "@/pages/inventory/BulkActionDialog"; // Not implemented, commented out
 
 const ITEMS_PER_PAGE = 10;
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://invetory-management-bnd-dinithi.onrender.com";
 
 // --- Utility Functions ---
 const getStatusIcon = (status) => {
