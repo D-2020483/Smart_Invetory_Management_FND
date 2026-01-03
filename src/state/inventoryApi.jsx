@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 export const inventoryApi = createApi({
   reducerPath: 'inventoryApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000/api/inventory' }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://invetory-management-bnd-dinithi.onrender.com/api/inventory' }),
   tagTypes: ['Inventory'],
   endpoints: (builder) => ({
     getInventoryItems: builder.query({
